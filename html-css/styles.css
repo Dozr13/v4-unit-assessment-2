@@ -12,3 +12,216 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+body{
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 0;
+}
+a{
+  color:  #54c1c9;
+  text-decoration: none;
+}
+
+ul a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+p{
+  font-size: 18px;
+}
+
+footer{
+  position:absolute
+}
+
+.body-container{
+  width: 100vw;
+  display: flex;
+}
+
+.header{
+  width: 100vw;
+  height: 11vh;
+  background-color: #000111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: -1;
+}
+
+.title{
+  display: flex;
+  color: #46a0a7;
+  font-size: 34px;
+  margin: 25px;
+}
+
+.links{
+  width: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-text{
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.space{
+  display: flex;
+  width: 10vw;
+}
+
+.container-1{
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.skills-check{
+  height: 30%;
+  margin-bottom: 0px;
+}
+
+.img-whole{
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.txt-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.txt-section h2{
+  height: 20%;
+  display: flex;
+  align-self: flex-start;
+}
+
+.enlarge{
+  display: flex;
+  align-self: flex-end;
+}
+
+.img-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-row img{
+  height: 180px;
+  width: 230px;
+  margin-bottom: 50px;
+}
+
+.container-2{
+  height: 100%;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bg-whole{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fff;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+  border-bottom-right-radius: 8%;
+  border-bottom-left-radius: 8%;
+  padding: 10px 25px;
+}
+
+.bg-white{
+  width: 75%;
+  height: 50%;
+  border-radius: 5%;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding-top: 10px;
+  box-shadow: 5px 5px 50px #a5a3a3;
+  margin: 15px;
+}
+
+.bg-space{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+.profile img{
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+
+.popular-articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+.footer{
+  width: 100vw;
+  height: 8vh;
+  background-color: #54c1c9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: -1;
+}
+
+.text-footer{
+  display: flex;
+  margin-left: 2vw;
+}
+
+.qmark img{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  margin-right: 2vw;
+}
